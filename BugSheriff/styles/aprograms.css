@@ -1,0 +1,113 @@
+﻿/* General page settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top banner styling */
+.top-banner {
+    background-color: #4b6584;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+    .top-banner a {
+        color: white;
+        text-decoration: none;
+        margin: 0 25px;
+        font-size: 18px;
+    }
+
+        .top-banner a:hover {
+            text-decoration: underline;
+        }
+
+/* Form container */
+form {
+    margin-top: 100px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px; /* Adjust width for better appearance */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Search box styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+    input[type="text"]:focus {
+        border-color: #4b6584;
+        outline: none;
+        background-color: #fff;
+    }
+
+/* Program card styling */
+.program-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .program-card h3 {
+        font-size: 22px;
+        margin: 0 0 10px 0;
+        color: #4b6584;
+    }
+
+    .program-card p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+/* Edit and Delete buttons */
+.program-link, .btn-delete {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4b6584;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+    .program-link:hover, .btn-delete:hover {
+        background-color: #ff6b81;
+    }
+
+/* Error message styling */
+#lblMessage {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    padding: 20px;
+}
