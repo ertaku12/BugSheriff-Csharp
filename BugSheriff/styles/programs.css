@@ -1,0 +1,115 @@
+﻿/* General page settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top banner styling */
+.top-banner {
+    background-color: #4b6584;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+    .top-banner a {
+        color: white;
+        text-decoration: none;
+        margin: 0 25px; /* Adjust margin for spacing */
+        font-size: 18px;
+    }
+
+        .top-banner a:hover {
+            text-decoration: underline;
+        }
+
+/* Main content styling */
+form {
+    margin-top: 80px; /* Adjust for the fixed top banner */
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 600px; /* Limit width */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+    font-weight: bold;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input for search */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Add some space below */
+}
+
+    input[type="text"]:focus {
+        border-color: #4b6584;
+        outline: none;
+        background-color: #fff;
+    }
+
+/* Program card styling */
+.program {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .program h3 {
+        font-size: 20px;
+        margin: 0 0 10px 0;
+        color: #4b6584;
+    }
+
+    .program p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+/* View link styling */
+.program-link {
+    display: inline-block; /* Ensure it behaves like a button */
+    padding: 10px 15px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Space above the link */
+}
+
+    .program-link:hover {
+        background-color: cornflowerblue;
+    }
+
+/* Error message styling */
+#lblMessage {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
